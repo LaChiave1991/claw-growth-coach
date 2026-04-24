@@ -1,6 +1,6 @@
 # Claw Growth Coach Memory Schema
 
-Use `C:\Users\GameAle\.codex\memories\CLAW_GROWTH_COACH.md` as the skill-specific memory file.
+Use `${CODEX_HOME:-~/.codex}/memories/CLAW_GROWTH_COACH.md` as the skill-specific memory file.
 
 Keep it short, factual, and stable.
 

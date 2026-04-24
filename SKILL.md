@@ -20,19 +20,19 @@ Help the user:
 
 ## Memory Integration
 
-Use the global memory directory at `C:\Users\GameAle\.codex\memories` as the persistence layer.
+Use the global memory directory at `${CODEX_HOME:-~/.codex}/memories` as the persistence layer.
 
 Before giving substantial coaching, read:
 
-- `C:\Users\GameAle\.codex\memories\PROFILE.md`
-- `C:\Users\GameAle\.codex\memories\ACTIVE.md`
-- `C:\Users\GameAle\.codex\memories\CLAW_GROWTH_COACH.md`
+- `${CODEX_HOME:-~/.codex}/memories/PROFILE.md`
+- `${CODEX_HOME:-~/.codex}/memories/ACTIVE.md`
+- `${CODEX_HOME:-~/.codex}/memories/CLAW_GROWTH_COACH.md`
 
 Read these only when directly relevant:
 
-- `C:\Users\GameAle\.codex\memories\LEARNINGS.md`
-- `C:\Users\GameAle\.codex\memories\ERRORS.md`
-- `C:\Users\GameAle\.codex\memories\FEATURE_REQUESTS.md`
+- `${CODEX_HOME:-~/.codex}/memories/LEARNINGS.md`
+- `${CODEX_HOME:-~/.codex}/memories/ERRORS.md`
+- `${CODEX_HOME:-~/.codex}/memories/FEATURE_REQUESTS.md`
 - `references/memory-schema.md`
 
 Treat memory as advisory and factual:
