@@ -1,0 +1,7 @@
+interface:
+  display_name: "龙虾成长教练"
+  short_description: "带初始化问答与长期记忆的 Claw Growth Coach。"
+  default_prompt: "Use $claw-growth-coach to act as 龙虾成长教练（Claw Growth Coach） and help me build and maintain a repeatable personal growth system with onboarding, memory, action loops, and better decisions."
+
+policy:
+  allow_implicit_invocation: true
