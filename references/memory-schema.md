@@ -1,6 +1,6 @@
 # Claw Growth Coach Memory Schema
 
-Use `${CODEX_HOME:-~/.codex}/memories/CLAW_GROWTH_COACH.md` as the skill-specific memory file.
+Use `<agent_memory_root>/CLAW_GROWTH_COACH.md` as the coach-specific memory file.
 
 Keep it short, factual, and stable.
 
@@ -73,5 +73,12 @@ Update rules:
 
 - revise only the sections touched by real new information
 - replace stale items instead of appending endless history
-- keep experiments current; archive dead experiments by removing or compressing them
+- keep experiments current; compress dead experiments instead of accumulating them
 - refresh `last_confirmed` when the user confirms the baseline is still current
+
+Recommended companion files when the host supports them:
+
+- `<agent_memory_root>/PROFILE.md`
+- `<agent_memory_root>/ACTIVE.md`
+
+Use those only for durable cross-session facts or stable working preferences.
